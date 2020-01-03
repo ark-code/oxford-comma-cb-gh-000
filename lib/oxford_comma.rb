@@ -5,7 +5,7 @@ def oxford_comma(array)
     return array.join(' and ')
   elsif array.size > 2 
     last= array.pop()
-    str = array.join(' , ')
+    str = array.join(', ')
     str << ', and '+last
     return str
   else
