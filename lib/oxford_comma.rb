@@ -8,6 +8,8 @@ def oxford_comma(array)
     str = array.join(',')
     str << ', and '+last
     return str
+  else
+    return null
   end
     
 end
